@@ -1,0 +1,116 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "a2tNYJmyGXPSGcUM6/0uTBflNm0=",
+			"path": "github.com/fancl20/fproxy",
+			"revision": "dyld: warning: could not load inserted library '/usr/local/Cellar/proxychains-ng/4.12_1/lib/libproxychains4.dylib' into library validated process because no suitable image found.  Did find:\n\t/usr/local/Cellar/proxychains-ng/4.12_1/lib/libproxychains4.dylib: code signing blocked mmap() of '/usr/local/Cellar/proxychains-ng/4.12_1/lib/libproxychains4.dylib'\n55563a4abeec25cfec45c5f9b2c5729516d392a9",
+			"revisionTime": "2017-07-31T14:50:57Z",
+			"tree": true
+		},
+		{
+			"checksumSHA1": "oZnJ7hI35QaJqMyzayLPq1w0dcU=",
+			"path": "github.com/klauspost/cpuid",
+			"revision": "dyld: warning: could not load inserted library '/usr/local/Cellar/proxychains-ng/4.12_1/lib/libproxychains4.dylib' into library validated process because no suitable image found.  Did find:\n\t/usr/local/Cellar/proxychains-ng/4.12_1/lib/libproxychains4.dylib: code signing blocked mmap() of '/usr/local/Cellar/proxychains-ng/4.12_1/lib/libproxychains4.dylib'\nae7887de9fa5d2db4eaa8174a7eff2c1ac00f2da",
+			"revisionTime": "2017-07-28T05:55:34Z"
+		},
+		{
+			"checksumSHA1": "gYAsuckCW3o4veePKZzEHvCcJro=",
+			"path": "github.com/klauspost/reedsolomon",
+			"revision": "dyld: warning: could not load inserted library '/usr/local/Cellar/proxychains-ng/4.12_1/lib/libproxychains4.dylib' into library validated process because no suitable image found.  Did find:\n\t/usr/local/Cellar/proxychains-ng/4.12_1/lib/libproxychains4.dylib: code signing blocked mmap() of '/usr/local/Cellar/proxychains-ng/4.12_1/lib/libproxychains4.dylib'\n48a4fd05f1730dd3ef9c3f9e943f6091d063f2c4",
+			"revisionTime": "2017-07-22T14:16:58Z"
+		},
+		{
+			"checksumSHA1": "rJab1YdNhQooDiBWNnt7TLWPyBU=",
+			"path": "github.com/pkg/errors",
+			"revision": "dyld: warning: could not load inserted library '/usr/local/Cellar/proxychains-ng/4.12_1/lib/libproxychains4.dylib' into library validated process because no suitable image found.  Did find:\n\t/usr/local/Cellar/proxychains-ng/4.12_1/lib/libproxychains4.dylib: code signing blocked mmap() of '/usr/local/Cellar/proxychains-ng/4.12_1/lib/libproxychains4.dylib'\nc605e284fe17294bda444b34710735b29d1a9d90",
+			"revisionTime": "2017-05-05T04:36:39Z"
+		},
+		{
+			"checksumSHA1": "um05vKtaw9xgkujFjPxQx+S0qAU=",
+			"path": "github.com/xtaci/kcp-go",
+			"revision": "dyld: warning: could not load inserted library '/usr/local/Cellar/proxychains-ng/4.12_1/lib/libproxychains4.dylib' into library validated process because no suitable image found.  Did find:\n\t/usr/local/Cellar/proxychains-ng/4.12_1/lib/libproxychains4.dylib: code signing blocked mmap() of '/usr/local/Cellar/proxychains-ng/4.12_1/lib/libproxychains4.dylib'\necbba09f83427b7fefe2e9f9c394f6d92827e1a6",
+			"revisionTime": "2017-06-05T05:35:44Z"
+		},
+		{
+			"checksumSHA1": "K76tKhxcEkC98To95NF70KoKF28=",
+			"path": "github.com/xtaci/smux",
+			"revision": "dyld: warning: could not load inserted library '/usr/local/Cellar/proxychains-ng/4.12_1/lib/libproxychains4.dylib' into library validated process because no suitable image found.  Did find:\n\t/usr/local/Cellar/proxychains-ng/4.12_1/lib/libproxychains4.dylib: code signing blocked mmap() of '/usr/local/Cellar/proxychains-ng/4.12_1/lib/libproxychains4.dylib'\nebec7ef2574b42a7088cd7751176483e0a27d458",
+			"revisionTime": "2017-07-01T13:47:59Z"
+		},
+		{
+			"checksumSHA1": "oVPHWesOmZ02vLq2fglGvf+AMgk=",
+			"path": "golang.org/x/crypto/blowfish",
+			"revision": "558b6879de74bc843225cde5686419267ff707ca",
+			"revisionTime": "2017-07-28T12:36:07Z"
+		},
+		{
+			"checksumSHA1": "TT1rac6kpQp2vz24m5yDGUNQ/QQ=",
+			"path": "golang.org/x/crypto/cast5",
+			"revision": "558b6879de74bc843225cde5686419267ff707ca",
+			"revisionTime": "2017-07-28T12:36:07Z"
+		},
+		{
+			"checksumSHA1": "1MGpGDQqnUoRpv7VEcQrXOBydXE=",
+			"path": "golang.org/x/crypto/pbkdf2",
+			"revision": "558b6879de74bc843225cde5686419267ff707ca",
+			"revisionTime": "2017-07-28T12:36:07Z"
+		},
+		{
+			"checksumSHA1": "qsacnnq6zmaoRpDJeTX2YDpIo6U=",
+			"path": "golang.org/x/crypto/salsa20",
+			"revision": "558b6879de74bc843225cde5686419267ff707ca",
+			"revisionTime": "2017-07-28T12:36:07Z"
+		},
+		{
+			"checksumSHA1": "RUr1Owi1/hTpuAqKeeus6YuEyz8=",
+			"path": "golang.org/x/crypto/salsa20/salsa",
+			"revision": "558b6879de74bc843225cde5686419267ff707ca",
+			"revisionTime": "2017-07-28T12:36:07Z"
+		},
+		{
+			"checksumSHA1": "Iwv89z1aXYKaB936lnsmE2NcfqA=",
+			"path": "golang.org/x/crypto/tea",
+			"revision": "558b6879de74bc843225cde5686419267ff707ca",
+			"revisionTime": "2017-07-28T12:36:07Z"
+		},
+		{
+			"checksumSHA1": "fgKd/+IO854XgYSrwOQJ5jG8WdI=",
+			"path": "golang.org/x/crypto/twofish",
+			"revision": "558b6879de74bc843225cde5686419267ff707ca",
+			"revisionTime": "2017-07-28T12:36:07Z"
+		},
+		{
+			"checksumSHA1": "d37eTFvbbuPQcKt5vkgsx+6C4c0=",
+			"path": "golang.org/x/crypto/xtea",
+			"revision": "558b6879de74bc843225cde5686419267ff707ca",
+			"revisionTime": "2017-07-28T12:36:07Z"
+		},
+		{
+			"checksumSHA1": "tK8eFmQ0JeKpR3P0TjiGobzlIh0=",
+			"path": "golang.org/x/net/bpf",
+			"revision": "45e771701b814666a7eb299e6c7a57d0b1799e91",
+			"revisionTime": "2016-12-15T19:42:18Z"
+		},
+		{
+			"checksumSHA1": "ph4zMZHCWvSjVOZwoxbks+nG0/M=",
+			"path": "golang.org/x/net/internal/iana",
+			"revision": "45e771701b814666a7eb299e6c7a57d0b1799e91",
+			"revisionTime": "2016-12-15T19:42:18Z"
+		},
+		{
+			"checksumSHA1": "LVY0kRV5iwxDS3XQaBWxdzPemyc=",
+			"path": "golang.org/x/net/internal/netreflect",
+			"revision": "45e771701b814666a7eb299e6c7a57d0b1799e91",
+			"revisionTime": "2016-12-15T19:42:18Z"
+		},
+		{
+			"checksumSHA1": "6HSLMveJnH/6z/h6xHc8j1VhNSs=",
+			"path": "golang.org/x/net/ipv4",
+			"revision": "45e771701b814666a7eb299e6c7a57d0b1799e91",
+			"revisionTime": "2016-12-15T19:42:18Z"
+		}
+	],
+	"rootPath": "github.com/fancl20/fproxy-docker"
+}
