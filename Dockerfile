@@ -10,6 +10,6 @@ RUN sed -i "s/dl-cdn\.alpinelinux\.org/mirrors\.aliyun\.com/" /etc/apk/repositor
     && go-wrapper install \
     github.com/kardianos/govendor \
     && cd /go/src/fproxy \
-    && govendor build +local ./vendor/github.com/fancl20/fproxy
+    && govendor install +local ./vendor/github.com/fancl20/fproxy
 
 ENTRYPOINT ["/go/bin/fproxy"]
