@@ -3,10 +3,10 @@
 	"ignore": "test",
 	"package": [
 		{
-			"checksumSHA1": "a2tNYJmyGXPSGcUM6/0uTBflNm0=",
+			"checksumSHA1": "LJoOSrCWsvwf27rDfPBfzP74V0Y=",
 			"path": "github.com/fancl20/fproxy",
-			"revision": "dyld: warning: could not load inserted library '/usr/local/Cellar/proxychains-ng/4.12_1/lib/libproxychains4.dylib' into library validated process because no suitable image found.  Did find:\n\t/usr/local/Cellar/proxychains-ng/4.12_1/lib/libproxychains4.dylib: code signing blocked mmap() of '/usr/local/Cellar/proxychains-ng/4.12_1/lib/libproxychains4.dylib'\n55563a4abeec25cfec45c5f9b2c5729516d392a9",
-			"revisionTime": "2017-07-31T14:50:57Z",
+			"revision": "a96242b63a108ac0ed90c1a2ffcfcbfbdf1fadb5",
+			"revisionTime": "2017-08-01T09:52:10Z",
 			"tree": true
 		},
 		{
@@ -112,5 +112,5 @@
 			"revisionTime": "2016-12-15T19:42:18Z"
 		}
 	],
-	"rootPath": "github.com/fancl20/fproxy-docker"
+	"rootPath": "github.com/fancl20/fproxy-docker/fproxy"
 }
