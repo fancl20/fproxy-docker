@@ -1,2 +1,0 @@
-# fproxy
-Inspired by gost

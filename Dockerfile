@@ -1,15 +1,9 @@
-FROM golang:1.9-alpine
+FROM golang:1.9 AS builder
 
-ADD fproxy /go/src/fproxy
+RUN go get github.com/fancl20/fproxy
+RUN CGO_ENABLED=0 GOOS=linux go build github.com/fancl20/fproxy
 
-RUN sed -i "s/dl-cdn\.alpinelinux\.org/mirrors\.aliyun\.com/" /etc/apk/repositories \
-    && apk add --update \
-    git \
-    && go-wrapper download \
-    github.com/kardianos/govendor \
-    && go-wrapper install \
-    github.com/kardianos/govendor \
-    && cd /go/src/fproxy \
-    && govendor install +local ./vendor/github.com/fancl20/fproxy
+FROM alpine
+COPY --from=builder /go/fproxy /bin
 
-ENTRYPOINT ["/go/bin/fproxy"]
+ENTRYPOINT ["/bin/fproxy"]
